@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.pmaslak.listaksiazek.AddBook">
+
+    <TextView
+        android:text="@string/text_description"
+        android:id="@+id/book_id"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textSize="16dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/add_title"
+        android:layout_width="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_book_title" />
+
+    <EditText
+        android:id="@+id/add_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:hint="@string/add_book_subtitle" />
+
+    <EditText
+        android:id="@+id/add_description"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:hint="@string/add_book_description" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_update"
+        android:onClick="UpdateBookAction" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_delete"
+        android:onClick="DeleteBookAction" />
+
+
+</RelativeLayout>

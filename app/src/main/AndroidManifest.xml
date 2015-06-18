@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pmaslak.listaksiazek" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+
+        <!-- main view -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <!-- add book -->
+        <activity
+            android:name=".AddBook"
+            android:label="@string/title_activity_add_book"
+            android:parentActivityName="com.example.pmaslak.listaksiazek.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AddBook" />
+        </activity>
+
+
+        <!-- akcja dodawania ksiazki -->
+        <activity
+            android:name=".AddBookAction"
+            android:label="@string/title_activity_add_book"
+            android:parentActivityName="com.example.pmaslak.listaksiazek.AddBook" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AddBookAction" />
+        </activity>
+
+        <!-- list book -->
+        <activity
+            android:name=".ListBook"
+            android:label="@string/title_activity_list_books"
+            android:parentActivityName="com.example.pmaslak.listaksiazek.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListBook" />
+        </activity>
+
+
+        <!-- show book -->
+        <activity
+            android:name=".DetailsBook"
+            android:label="@string/title_activity_list_books"
+            android:parentActivityName="com.example.pmaslak.listaksiazek.ListBook" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DetailsBook" />
+        </activity>
+
+        <!-- delete book -->
+        <!--<activity-->
+            <!--android:name=".DetailsBook"-->
+            <!--android:label="@string/title_activity_list_books"-->
+            <!--android:parentActivityName="com.example.pmaslak.listaksiazek.DetailsBook" >-->
+            <!--<meta-data-->
+                <!--android:name="android.support.PARENT_ACTIVITY"-->
+                <!--android:value=".DetailsBook" />-->
+        <!--</activity>-->
+
+
+        <!-- show application info -->
+        <activity
+            android:name=".ApplicationInfo"
+            android:label="@string/title_activity_application_info"
+            android:parentActivityName="com.example.pmaslak.listaksiazek.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ApplicationInfo" />
+        </activity>
+
+    </application>
+
+</manifest>

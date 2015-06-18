@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/pmaslak/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/pmaslak/AndroidStudioProjects/ListaKsiazek/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-52202bcd03b564bd16511e7d0611965a2d33a38c.jar" />
+    </item>
+    <item
+        jar="/Users/pmaslak/AndroidStudioProjects/ListaKsiazek/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/pmaslak/AndroidStudioProjects/ListaKsiazek/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-5e074f1796623616f1f1ca2a5a9d4228b3e6c1f3.jar" />
+    </item>
+    <item
+        jar="/Users/pmaslak/AndroidStudioProjects/ListaKsiazek/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/pmaslak/AndroidStudioProjects/ListaKsiazek/app/build/intermediates/pre-dexed/debug/classes-bb8f46895e53e260b9e8ea286980343b6eb9ed6d.jar" />
+    </item>
+    <item
+        jar="/Users/pmaslak/AndroidStudioProjects/ListaKsiazek/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/pmaslak/AndroidStudioProjects/ListaKsiazek/app/build/intermediates/pre-dexed/debug/classes-e515bf59423819cf20812e5deb0c5eebebdc3f52.jar" />
+    </item>
+
+</items>

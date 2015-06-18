@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Lista Książek</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="edit_book">Wpisz nazwe</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="cokowliek_ale_zle">Cokowliek ale zle</string>
+
+
+    <!-- author info -->
+    <string name="text_author">Autor: Pawel Maslak</string>
+    <string name="text_copyright">Copyright 2015 MIT licence</string>
+    <string name="text_description">This is only training application for academy.</string>
+
+
+
+
+    <!-- add view -->
+    <string name="add_book_title">Wpisz tytuł</string>
+    <string name="add_book_subtitle">Wpisz podtytuł</string>
+    <string name="add_book_description">Wpisz opis</string>
+
+
+    <!-- titles -->
+    <string name="title_activity_main">Home</string>
+    <string name="title_activity_display_book">My Book</string>
+    <string name="title_activity_add_book">Add Book</string>
+    <string name="title_activity_application_info">O autorze</string>
+    <string name="title_activity_list_books">Lista książek</string>
+
+    <!-- buttons -->
+    <string name="button_save">Zapisz</string>
+    <string name="button_add">Dodaj</string>
+    <string name="button_listBooks">Przeglądaj</string>
+    <string name="button_delete">Usuń</string>
+    <string name="button_update">Aktualizuj</string>
+    <string name="button_applicationinfo">O autorze</string>
+
+</resources>
