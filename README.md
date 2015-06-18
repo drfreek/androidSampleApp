@@ -1,4 +1,4 @@
 # androidSampleApp
-androidSampleApp
+Android Sample App
 
-Android aexample app with CRUD.
+Android example app with CRUD (SQLite) and listView.
